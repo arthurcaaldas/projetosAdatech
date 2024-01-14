@@ -1,0 +1,19 @@
+ol, ul {
+ height: 180px;
+}
+
+.mae li {
+color: rgb(134, 134, 35);
+}
+
+.filho li {
+ color: blue;
+}
+
+.filha li {
+color: pink;
+}
+
+.lista {
+ display: flex;
+}

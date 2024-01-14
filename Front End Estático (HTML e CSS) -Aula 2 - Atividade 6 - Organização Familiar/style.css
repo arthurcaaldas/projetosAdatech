@@ -17,3 +17,7 @@ color: pink;
 .lista {
  display: flex;
 }
+
+.table {
+ text-align: center;
+}

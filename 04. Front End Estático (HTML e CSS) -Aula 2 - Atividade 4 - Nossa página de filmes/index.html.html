@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Marvel | Ada</title>
+ 
+ <style>
+  
+  *,
+  *:after,
+  *:before {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+   text-shadow: 1px 1px black;
+  }
+  
+  body {
+   text-align: center;
+   margin: 0 auto;
+   padding: 0;
+   max-width: 1440px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   background-image: url(https://i0.wp.com/urimpressions.com/wp-content/uploads/2020/04/URI351-Avengers-Logo.jpg?fit=1369%2C1400&ssl=1);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center;
+   height: 100vh;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  h1 {
+   color: red;
+  }
+  
+  li {
+   background-color: red;
+   margin: 6px;
+   padding: 10px 100px;
+   border-radius: 5px;
+   list-style: none;
+   box-shadow: 3px 3px rgba(255, 0, 0, 0.6);
+  }
+  
+  .movies {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  
+  .table {
+   width: 80%;
+   display: inline;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  table, th, td {
+   border: none;
+   padding: 3px 15px;
+  }
+  
+  table{
+   width: 60%;
+  }
+  
+  th, td {
+   background-color: blue;
+   border-radius: 5px;
+   box-shadow: 1px 1px rgba(0, 0, 255, 0.6);
+  }
+  
+  td {
+   line-height: 25px;
+  }
+  
+  p, h2 {
+   color: rgb(80, 76, 76);
+  }
+  
+  p {
+   font-size: 18px;
+  }
+
+  .center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  }
+ </style>
+ 
+</head>
+<body>
+ 
+ <div class="center">
+  
+  <h1>Filmes da Marvel</h1>
+  <p>Os melhores filmes do Universo Cinematográfico da Marvel.</p>
+
+   <ol class="movies">
+    <li>Vingadores: Ultimato</li>
+    <li>Pantera Negra</li>
+    <li>Homem de Ferro</li>
+    <li>Guardiões da Galáxia</li>
+    <li>Thor: Ragnarok</li>
+   </ol>
+  
+  <h2>Tabela de Classificação</h2>
+  
+  <div class="table">
+   
+   <table border="1" class="table">
+    <tr>
+     <th>Filme</th>
+     <th class=>Avaliação</th>
+    </tr>
+    <tr>
+     <td>Vingadores: Ultimato</td>
+     <td>9/10</td>
+    </tr>
+    <tr>
+     <td>Pantera Negra</td>
+     <td>8/10</td>
+    </tr>
+    <tr>
+     <td>Homem de Ferro</td>
+     <td>8.5/10</td>
+    </tr>
+    <tr>
+     <td>Guardiões da Galáxia</td>
+     <td>8.5/10</td>
+    </tr>
+    <tr>
+     <td>Thor: Ragnarok</td>
+     <td>7.5/10</td>
+    </tr>
+   </table>
+  </div>
+  
+ </div>
+ 
+</body>
+</html>

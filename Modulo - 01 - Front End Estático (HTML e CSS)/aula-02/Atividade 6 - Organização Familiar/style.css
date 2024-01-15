@@ -1,17 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap');
+
+*,
+*:after,
+*:before {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ vertical-align: baseline;
+ box-sizing: border-box;
+ 
+}
 
 body {
+ background-color: #ebebeb;
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
  font-family: 'roboto';
+ text-align: center;
+
  width: 100%;
- background-color: #d0e1d9;
+ margin: 0 auto;
+
 }
+
+header {
+ color: #fff;
+ background-color: #282c2a;
+ text-align: center;
+ text-transform: uppercase;
+
+ padding: 20px;
+ margin-bottom: 20px;
+}
+
+main {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+/* ---CSS LISTAS--- */
 
 ol, ul {
- height: 180px;
+ height: 220px;
 }
 
-.pai {
- background-color: whiter;
+li {
+ min-width: 250px;
+ list-style: none;
 }
 
 .mae li {
@@ -27,33 +62,86 @@ ol, ul {
 }
 
 .lista {
- width: 70%;
+ max-width: 400px;
+
  display: flex;
+ flex-direction: column;
+ justify-content: space-around;
 }
 
 .compras {
- padding: 0 40px;
+ padding: 5px;
 }
+
+.pai li:nth-child(even) {
+ color: #fff;
+ background-color: #000;
+}
+
+.mae li:nth-child(even) {
+ color: #fff;
+ background-color: #0d4e32;
+}
+
+.filho li:nth-child(even) {
+ color: #fff;
+ background-color: rgb(0, 0, 204);
+}
+
+.filha li:nth-child(even) {
+ color: #fff;
+ background-color: #408767;
+}
+
+/* ---CSS TABELAS--- */
+
 
 table {
  text-align: center;
- border-collapse: collapse;
- 
- margin-top: 10px;
+
+ box-shadow: 3px 3px 3px #000;
+ border-radius: 10px;
+
+ margin: 20px;
+}
+
+.table {
+
 }
 
 .week td {
- background-color: #6fa58b ;
+ color: #fff;
+ background-color: #000;
+ height: 30px;
+
+ border-radius: 10px;
+
+ vertical-align: middle;
+
 }
 
 .turn {
- background-color: #6fa58b ;
+ color: #fff;
+ background-color: #000;
+
+ border-radius: 10px;
+
+ vertical-align: middle;
+
+}
+
+td {
+ border-radius: 10px;
+ vertical-align: middle;
+
 }
 
 tr:nth-child(even) {
- background-color: #6fa58b;
+ color: #ebebeb;
+ background-color: rgb(73, 73, 73);
 }
 
-li:nth-child(even) {
- background-color: #6fa58b;
+tr:nth-child(odd) {
+ color: rgb(73, 73, 73);
+ background-color: rgb(216, 216, 216);
 }

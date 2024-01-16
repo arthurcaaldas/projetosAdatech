@@ -125,3 +125,21 @@ footer {
 
 
 
+/*
+CSS confirmacaoInscricao.html
+*/
+
+
+h2 {
+ font-size: 48px;
+ color: #fff;
+ text-shadow: 4px 4px 4px #000;
+}
+
+a {
+ color:#fff;
+ font-size: 18px;
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 30px;
+}

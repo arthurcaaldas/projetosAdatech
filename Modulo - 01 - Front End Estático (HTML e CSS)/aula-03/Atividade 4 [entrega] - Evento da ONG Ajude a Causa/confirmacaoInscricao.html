@@ -3,9 +3,44 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+ <title>Confirmação</title>
+
+ <link rel="stylesheet" href="./style.css">
+
 </head>
+
 <body>
+ 
+ <header>
+  <h1>Formulário de Incrição</h1>
+  <p>Ajude a Causa!</p>
+ </header>
+ 
+ <main>
+  <section>
+   <h2>PARABÉNS! Inscrição concluída</h2>
+  </section>
+
+  <section></section>
+
+  <section>
+   <h2>Obrigado por contribuir!</h2>
+  </section>
+ </main>
+ 
+  <footer>
+  <p>&copy; 2024 - Formulário de inscrição - Arthur Caldas</p>
+ </footer>
+ 
+ <script>
+  const urlParams = new URLSearchParams(window.location.search)
+  
+  const entries = urlParams.entries()
+  
+  for (const entry of entries) {
+   console.log(`${entry[0]}: ${entry[1]}`)
+  }
+ </script>
  
 </body>
 </html>

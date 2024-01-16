@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Evento Benificente</title>
+</head>
+
+<link rel="stylesheet" href="./style.css">
+
+<body>
+ <header>
+  <h1>Formulário de Incrição</h1>
+  <p>Ajude a Causa!</p>
+ </header>
+ 
+ <main>
+  <section class="form">
+   <form action="./confirmacaoInscricao.html">
+    
+    <!--Nome do participante-->
+    <div class="name">
+     <label for="name">Nome do Participante:</label><br>
+     <input type="text" name="name" id="name" required>
+    </div>
+    
+    <!--Idade-->
+    <div class="age">
+     <label for="age">Idade:</label>
+     <input type="number" name="name" id="age" min="0" max="90" required>
+    </div>
+        
+    <!--E-mail-->
+    <div class="email">
+     <label for="email">E-mail:</label><br>
+     <input type="email" name="email" id="email" placeholder="exemplo@mail.com" required>
+    </div>
+    
+    <!--Categoria de inscrição-->
+    <label for="corrida">Categoria</label>
+    <div class="run">
+     <div>
+      <input type="radio" id="run1" name="opcao" value="opcao1" required>
+      <label for="opcao1">Corrida 3km</label>
+     </div>
+     
+     <div>
+      <input type="radio" id="run1" name="opcao" value="opcao1" required>
+      <label for="opcao1">Corrida 5km</label>
+     </div>
+     
+     <div>
+      <input type="radio" id="walk4" name="opcao" value="opcao1" required>
+      <label for="opcao1">Caminhada 4km</label>
+     </div>
+    </div>  
+    
+    <!--Tamanho da camiseta-->
+    <label for="size">Tamanho da camiseta:</label><br>
+    <div class="size-tshirt">
+     <input type="radio" id="opcao1" name="opcao1" value="opcao1" required>
+     <label for="opcao1">P</label>
+     
+     <input type="radio" id="opcao2" name="opcao1" value="opcao2" required>
+     <label for="opcao2">M</label>
+     
+     <input type="radio" id="opcao4" name="opcao1" value="opcao3" required>
+     <label for="opcao3">G</label>
+     
+     <input type="radio" id="opcao4" name="opcao1" value="opcao4" required>
+     <label for="opcao4">GG</label>
+     
+     <input type="radio" id="opcao5" name="opcao1" value="opcao5" required>
+     <label for="opcao5">XG</label>
+     
+    </div>
+    
+    <!--Valor da Doação-->
+    <div class="donation">
+      <label for="donation">Doação:</label>
+      <select name="donation" id="donation" required>
+       <option value="">Escolha o valor</option>
+       <option value="5">R$ 5,00</option>
+       <option value="10">R$ 10,00</option>
+       <option value="15">R$ 15,00</option>
+       <option value="20">R$ 20,00</option>
+       <option value="25">R$ 25,00</option>
+       <option value="50">R$ 50,00</option>
+       <option value="0">Doar outro valor</option>
+      </select>
+    </div>
+    
+    <button type="reset">Limpar</button>
+    <button type="submit">Finalizar Cadastro</button>
+   </form>
+  </section>
+ </main>
+ 
+ <footer>
+  <p>&copy; 2024 - Formulário de inscrição - Arthur Caldas</p>
+ </footer>
+ 
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ 
+ <style>
+  
+  body {
+   line-height: 2;
+  }
+
+  label {
+   font-weight: bold;
+  }
+  
+ </style>
+ 
+</head>
+<body>
+ 
+ <form action="./travel.html" method="get">
+  
+  <!-- 1. NOME COMPLETO-->
+  <div>
+   <label for="name">Nome Completo</label>
+   <input type="text">
+  </div>
+  
+  <!-- 2. DATA DE PARTIDA-->
+  <div>
+   <label for="date">Data de Partida</label>
+   <input type="date">
+  </div>
+  
+  <!-- 3. NUMERO DE PASSAGEIROS-->
+  <div>
+   <label for="number">Numero de passageiros</label>
+   <input type="number">
+  </div>
+  
+  <!-- 4. PAIS DE RESIDÊNCIA-->
+  <div>
+   <label for="paisesResidencia">Selecione um país:</label>
+   <select id="paises" name="paisesResidencia">
+    <option value="afeganistao">Afeganistão</option>
+    <option value="albania">Albânia</option>
+    <option value="argelia">Argélia</option>
+    <option value="andorra">Andorra</option>
+    <option value="angola">Angola</option>
+    <option value="argentina">Argentina</option>
+    <option value="australia">Austrália</option>
+    <option value="austria">Áustria</option>
+    <option value="bahamas">Bahamas</option>
+    <option value="bangladesh">Bangladesh</option>
+    <option value="belgica">Bélgica</option>
+    <option value="brasil">Brasil</option>
+    <option value="canada">Canadá</option>
+    <option value="china">China</option>
+    <option value="colombia">Colômbia</option>
+    <option value="egito">Egito</option>
+    <option value="espanha">Espanha</option>
+    <option value="estados-unidos">Estados Unidos</option>
+    <option value="franca">França</option>
+    <option value="india">Índia</option>
+    <option value="italia">Itália</option>
+    <option value="japao">Japão</option>
+    <option value="mexico">México</option>
+    <option value="portugal">Portugal</option>
+    <option value="russia">Rússia</option>
+    <option value="suecia">Suécia</option>
+    <option value="suica">Suíça</option>
+    <option value="turquia">Turquia</option>
+    <option value="ucrania">Ucrânia</option>
+    <option value="uruguai">Uruguai</option>
+    <option value="venezuela">Venezuela</option>
+   </select>
+  </div>
+  
+  <!-- 5. E-MAIL-->
+  <div>
+   <label for="email">E-mail:</label>
+   <input type="email">
+  </div>
+  
+  <!-- 6. REFEIÇÕES-->
+  <div>
+   <label for="">Preferencias de refeições:</label>
+   <label for="refeicao">Vegetariana</label>
+   <input type="checkbox" id="refeicao">
+   
+   <label for="refeicao">Sem glúten</label>
+   <input type="checkbox" id="refeicao">
+   
+   <label for="refeicao">Normal</label>
+   <input type="checkbox" id="refeicao">
+  </div>
+  
+  <!-- 7. CELULAR-->
+  <div>
+   <label for="tel">Celular:</label>
+   <input type="tel" name="celular" id="tel" placeholder="(12) 91234-5678">
+  </div>
+  
+  <!-- 8. DESTINO-->
+  <div>
+   <label for="assento">Destino</label>
+   
+   <select name="destino" id="destino">
+    <option value="afeganistao">Afeganistão</option>
+    <option value="albania">Albânia</option>
+    <option value="argelia">Argélia</option>
+    <option value="andorra">Andorra</option>
+    <option value="angola">Angola</option>
+    <option value="argentina">Argentina</option>
+    <option value="australia">Austrália</option>
+    <option value="austria">Áustria</option>
+    <option value="bahamas">Bahamas</option>
+    <option value="bangladesh">Bangladesh</option>
+    <option value="belgica">Bélgica</option>
+    <option value="brasil">Brasil</option>
+    <option value="canada">Canadá</option>
+    <option value="china">China</option>
+    <option value="colombia">Colômbia</option>
+    <option value="egito">Egito</option>
+    <option value="espanha">Espanha</option>
+    <option value="estados-unidos">Estados Unidos</option>
+    <option value="franca">França</option>
+    <option value="india">Índia</option>
+    <option value="italia">Itália</option>
+    <option value="japao">Japão</option>
+    <option value="mexico">México</option>
+    <option value="portugal">Portugal</option>
+    <option value="russia">Rússia</option>
+    <option value="suecia">Suécia</option>
+    <option value="suica">Suíça</option>
+    <option value="turquia">Turquia</option>
+    <option value="ucrania">Ucrânia</option>
+    <option value="uruguai">Uruguai</option>
+    <option value="venezuela">Venezuela</option>
+   </select>
+  </div>
+  
+  <!-- 9. ASSENTO -->
+  <div>
+   <label for="Paris">Preferência de assento:</label>
+   
+   <label for="janela">Janela</label>
+   <input type="radio" name="destino" id="janela" value="janela">
+   
+   <label for="corredor">Corredor</label>
+   <input type="radio" name="destino" id="corredor" value="corredor">
+   
+   <label for="emergencia">Saída de Emergência</label>
+   <input type="radio" name="destino" id="Londres" value="Londres">
+  </div>
+  
+  <!-- 10. CARTÃO -->
+  <div>
+   <label for="cartao">Cartão de Crédito:</label>
+   <input type="number" id="cartao" required>
+  </div>
+  
+  <!-- 11. PASSAPORTE  -->
+  <div>
+   <label for="passaporte">Foto do Passaporte:</label>
+   <input type="file" id="passaporte" name="passaporte"">
+  </div>
+  
+  <button type="submit">Enviar</button>
+  
+ </form>
+ 
+</body>
+</html>

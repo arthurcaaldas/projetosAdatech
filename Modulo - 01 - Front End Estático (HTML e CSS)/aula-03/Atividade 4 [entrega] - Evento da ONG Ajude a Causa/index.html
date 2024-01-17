@@ -77,20 +77,17 @@
     
     <!--Valor da Doação-->
     <div class="donation">
-     <div>
      <label for="donation">Doação:</label>
-     <select name="Doação de" id="donation" required>
-      <option value="">Escolha o valor</option>
-      <option value="5">R$ 5,00</option>
-      <option value="10">R$ 10,00</option>
-      <option value="15">R$ 15,00</option>
-      <option value="20">R$ 20,00</option>
-      <option value="25">R$ 25,00</option>
-      <option value="50">R$ 50,00</option>
-      <option value="0">Doar outro valor</option>
-     </select>
-    </div>
-     <input name="donation" type="number" id="donation" value="" placeholder="Para outro valor...">
+     <input type="text" list="donation">
+     <datalist id="donation">
+      <option value="R$ 5,00"></option>
+      <option value="R$ 10,00"></option>
+      <option value="R$ 20,00"></option>
+      <option value="R$ 40,00"></option>
+      <option value="R$ 50,00"></option>
+      <option value="R$ 100,00"></option>
+      <option value="Digite">Para outro valor</option>
+     </datalist>
     </div>
     
     <button type="reset">Limpar</button>

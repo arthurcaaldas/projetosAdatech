@@ -20,19 +20,19 @@
    <form action="./confirmacaoInscricao.html">
     
     <!--Nome do participante-->
-    <div>
+    <div class="name">
      <label for="name">Nome do Participante:</label><br>
      <input type="text" name="name" id="name" required>
     </div>
     
     <!--Idade-->
-    <div>
+    <div class="age">
      <label for="age">Idade:</label>
      <input type="number" name="age" id="age" min="0" max="90" required>
     </div>
     
     <!--E-mail-->
-    <div>
+    <div class="email">
      <label for="email">E-mail:</label><br>
      <input type="email" name="email" id="email" placeholder="exemplo@mail.com" required>
     </div>
@@ -76,22 +76,25 @@
     </div>
     
     <!--Valor da Doação-->
-    <div>
+    <div class="donation">
      <label for="donation">Doação:</label>
      <input type="text" list="donation">
      <datalist id="donation">
-      <option value="R$ 5,00"></option>
-      <option value="R$ 10,00"></option>
-      <option value="R$ 20,00"></option>
-      <option value="R$ 40,00"></option>
-      <option value="R$ 50,00"></option>
-      <option value="R$ 100,00"></option>
-      <option value="Digite">Para outro valor</option>
+       <option value="R$ 5,00"></option>
+       <option value="R$ 10,00"></option>
+       <option value="R$ 20,00"></option>
+       <option value="R$ 40,00"></option>
+       <option value="R$ 50,00"></option>
+       <option value="R$ 100,00"></option>
+       <option value="Digite">Para outro valor</option>
      </datalist>
     </div>
     
     <button type="reset">Limpar</button>
     <button type="submit">Finalizar Cadastro</button>
+    
+
+  
     
    </form>
   </section>

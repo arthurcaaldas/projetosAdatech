@@ -57,6 +57,7 @@ label {
 }
 
 input {
+ color: #515151;
  border: 1px solid #515151;
  background-color: #f3f3f3;
  font-size: 20px;
@@ -67,10 +68,6 @@ input {
 select {
  font-size: 20px;
  width: 120px;
-}
-
-.size-tshirt input {
- border: 100px solid #515151;
 }
 
 label, 

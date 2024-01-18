@@ -1,0 +1,28 @@
+.news {
+ margin-left: 50px;
+ display: inline-block;
+ width: 38%;
+
+
+
+
+
+
+
+ margin-bottom: 200px;
+}
+
+.news h2 {
+font-size: 2.3rem;
+color: var(--color-primary);
+padding: 20px 0;
+}
+
+.news p,
+.news input,
+.news label {
+ font-size: 1.3rem;
+ font-weight: 300;
+ color: var(--color-primary);
+}
+

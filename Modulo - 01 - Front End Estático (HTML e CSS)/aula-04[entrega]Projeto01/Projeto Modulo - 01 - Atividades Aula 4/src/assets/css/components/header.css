@@ -1,0 +1,41 @@
+header {
+ background: linear-gradient(0deg, rgba(115,10,14,1) 61%, rgba(0,0,0,1) 100%);
+ text-align: center;
+ 
+ width: 100%;
+ padding-bottom: 20px;
+
+ position: fixed;
+ top: 0;
+
+ z-index: 1;
+}
+
+h1 {
+ color: #FFF;
+ font-size: 2.5rem;
+ text-shadow: 4px 4px 10px var(--color-black);
+ 
+ padding: 10px 0;
+ text-transform: uppercase;
+}
+
+nav li {
+ color:var(--color-white);
+ border-radius: 8px;
+ font-weight: bold;
+ 
+ margin: 0 10px;
+ 
+ display: inline-block;
+}
+
+header a {
+ color:var(--color-white);
+ text-shadow: 4px 4px 5px var(--color-black);
+}
+
+header a:hover {
+ color:var(--color-black);
+ font-weight: bold;
+}

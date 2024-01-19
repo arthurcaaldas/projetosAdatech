@@ -1,24 +1,25 @@
 .history-coffee {
- background-color: var(--color-primary);
+ background-color: var(--color-primary-dark);
+
  color: var(--color-white);
  text-transform: uppercase;
  text-align: center;
  
- padding: 0 80px;
+ padding: 30px 80px;
  margin-top: 40px;
  margin-bottom: 40px;
 }
 
 .history-coffee h2 {
- text-shadow: 5px 5px 5px var(--color-black);
- font-size: 2rem;
+ text-shadow: 20px 20px 10px var(--color-black);
+ font-size: 1.5rem;
  
  padding: 50px 0;
 }
 
 .history-coffee p {
- text-shadow: 5px 5px 5px var(--color-black);
- font-size: 1.2rem;
+ text-shadow: 20px 20px 10px var(--color-black);
+ font-size: 1rem;
  font-weight: 100;
  line-height: 1.5;
  

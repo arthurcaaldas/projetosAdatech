@@ -13,7 +13,6 @@ aside {
  border-radius: 30px;
  
  height: 820px;
- margin: 0 30px;
  padding: 20px;
  
  display: inline-block;
@@ -22,7 +21,7 @@ aside {
 .aside h3,
 .aside p {
  color: var(--color-white);
- text-align: center;
+ text-align: end;
 }
 
 .aside h3 {

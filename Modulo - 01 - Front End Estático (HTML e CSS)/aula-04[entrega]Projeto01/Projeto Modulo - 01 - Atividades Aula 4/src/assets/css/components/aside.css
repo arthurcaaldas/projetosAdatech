@@ -1,19 +1,22 @@
 .aside {
  width: 100%;
+ 
  display: inline-block;
 }
 
 aside {
- width: 30%;
- height: 820px;
- margin: 0 30px;
- padding: 20px;
- border-radius: 30px;
- display: inline-block;
-
  background-image: url(../imagens/brick-wall-1834784_1280.jpg);
  background-attachment: fixed;
  background-size: cover;
+ 
+ width: 30%;
+ border-radius: 30px;
+ 
+ height: 820px;
+ margin: 0 30px;
+ padding: 20px;
+ 
+ display: inline-block;
 }
 
 .aside h3,
@@ -23,15 +26,16 @@ aside {
 }
 
 .aside h3 {
+ text-shadow: 10px 10px 8px var(--color-black);
  font-size: 3.5rem;
+ 
  margin-top: 30px;
  margin-bottom: 20px;
- text-shadow: 10px 10px 8px var(--color-black);
 }
 
 .aside p {
- font-size: 1.2rem;
- line-height: 1.5;
- font-weight: 500;
  text-shadow: 10px 10px 10px var(--color-black);
+ font-size: 1.2rem;
+ font-weight: 500;
+ line-height: 1.5;
 }

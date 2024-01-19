@@ -4,26 +4,26 @@ header {
  
  width: 100%;
  padding-bottom: 20px;
-
+ 
  position: fixed;
  top: 0;
-
+ 
  z-index: 1;
 }
 
 h1 {
- color: #FFF;
- font-size: 2.5rem;
  text-shadow: 4px 4px 10px var(--color-black);
+ color: var(--color-white);
+ text-transform: uppercase;
+ font-size: 2.5rem;
  
  padding: 10px 0;
- text-transform: uppercase;
 }
 
 nav li {
  color:var(--color-white);
- border-radius: 8px;
  font-weight: bold;
+ border-radius: 8px;
  
  margin: 0 10px;
  

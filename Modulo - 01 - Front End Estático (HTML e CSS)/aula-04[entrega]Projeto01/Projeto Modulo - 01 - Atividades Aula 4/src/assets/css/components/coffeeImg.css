@@ -1,8 +1,9 @@
 .welcome {
  text-align: center;
- margin: 23px 0;
  font-size: 3rem;
  font-weight: 100;
+ 
+ margin: 23px 0;
 }
 
 .img img {

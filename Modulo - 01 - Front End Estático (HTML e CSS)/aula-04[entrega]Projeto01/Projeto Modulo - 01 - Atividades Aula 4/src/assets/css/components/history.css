@@ -5,9 +5,10 @@
  text-align: center;
  
  padding: 0 80px;
- margin: 40px 0;
- 
+ margin-top: 40px;
+ margin-bottom: 40px;
 }
+
 .history-coffee h2 {
  text-shadow: 5px 5px 5px var(--color-black);
  font-size: 2rem;

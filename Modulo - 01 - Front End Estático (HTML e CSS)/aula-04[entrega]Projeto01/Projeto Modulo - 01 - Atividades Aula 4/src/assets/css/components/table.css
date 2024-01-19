@@ -1,3 +1,33 @@
-table {
- margin: 20px;
+.content-table {
+ color: var(--color-primary);
+ width: 49%;
+ 
+ padding: 23px;
+ 
+ display: inline-block;
+}
+
+.content-table h2 {
+ font-size: 2rem;
+
+ margin-bottom: 15px;
+}
+
+table tr,
+table th,
+table td {
+ border: 1px solid var(--color-primary);
+ border-radius: 10px;
+ font-size: 1rem;
+ font-weight: 500;
+
+ text-align: end;
+ text-align: center;
+ 
+ padding: 8px;
+}
+
+.back-color-table {
+ background-color: var(--color-primary);
+ color: var(--color-white);
 }

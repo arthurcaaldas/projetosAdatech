@@ -52,7 +52,7 @@
 }
 
 .button {
- text-align: center;
+ text-align: start;
 }
 
 button {
@@ -62,7 +62,7 @@ button {
  border-radius: 5px;
  
  padding: 10px 18px;
- margin: 0 20px;
+ margin: 0 30px;
 }
 
 button:hover {

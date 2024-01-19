@@ -1,8 +1,32 @@
 footer {
  background: linear-gradient(180deg, rgba(115,10,14,1) 61%, rgba(0,0,0,1) 100%);
+ text-shadow: 2px 2px 3px var(--color-black);
  color: var(--color-white);
  text-align: center;
- text-shadow: 2px 2px 3px var(--color-black);
+ line-height: 2.3;
  
- padding: 30px;
+ padding: 50px;
+}
+
+.info {
+ font-weight: 100;
+ font-size: .8rem;
+ 
+ margin-bottom: 30px;
+}
+
+.icons img {
+ width: 50px;
+ 
+ padding: 0 10px 10px 10px;
+ margin-bottom: 30px;
+}
+
+.info img {
+ width: 30px;
+}
+
+
+footer a {
+ color: var(--color-white);
 }

@@ -19,7 +19,7 @@ table td {
  border: 1px solid var(--color-primary);
  border-radius: 10px;
  font-size: 1rem;
- font-weight: 500;
+ font-weight: 300;
 
  text-align: end;
  text-align: center;
@@ -30,4 +30,8 @@ table td {
 .back-color-table {
  background-color: var(--color-primary);
  color: var(--color-white);
+}
+
+table th {
+ font-weight: 800;
 }

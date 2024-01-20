@@ -1,0 +1,38 @@
+/* ex1 e ex2 */
+.destacado span {
+ color:red
+}
+
+ul li {
+ color: blue
+}
+
+/* ex3 e ex4 */
+
+ul > li {
+ color:brown;
+}
+
+div > h2 {
+ color: yellow;
+}
+
+/* ex5 e ex6 */
+
+p ~ p {
+ color:yellowgreen ;
+}
+
+table ~ table {
+ color: gray;
+}
+
+/* ex7 e ex8 */
+
+p + p {
+ color: oranje
+}
+
+ul + ul {
+ color:orangered;
+}

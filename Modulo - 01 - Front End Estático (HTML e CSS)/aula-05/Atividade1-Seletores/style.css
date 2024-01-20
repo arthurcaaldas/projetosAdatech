@@ -1,0 +1,15 @@
+.ex1 p {
+ color: red;
+}
+
+.ex2 .destacado {
+ color: blue;
+}
+
+.ex3 #titulo {
+ color: brown;
+}
+
+.ex4 a[target="_blank"], a[target="_self"] {
+ color: yellow;
+}

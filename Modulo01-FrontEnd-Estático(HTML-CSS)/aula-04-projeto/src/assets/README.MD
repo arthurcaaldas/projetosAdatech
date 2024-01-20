@@ -1,16 +1,5 @@
 # [Frontend Estático] Atividades Aula 4
 
-# Atividade 1 - Projeto acessibilidade em notícias online
-
-Em um cenário onde as notícias circulam rapidamente e a informação é a chave para o sucesso, um grupo de desenvolvedores talentosos foi recrutado pela prestigiada empresa de tecnologia, NewsTech. Seu desafio não era apenas entender o código, mas transformar a experiência de leitura online para todos.
-
-**Desafio**
-
-- Em grupo, escolham um site de noticias para realizar a análise de acessibilidade.
-- Cada grupo deverá para fazer uma análise sobre acessibilidade usando ferramentas de análise e identificar pontos de melhoria.
-- Importante, caso o site escolhido apresente muitas falhas de acessibilidade escolham o **top 3** para apresentar.
-- Anotem os pontos encontrados para compartilhar com os demais colegas
-
 ## Nosso desafio de hoje: Site para o ☕️ Café Encantado ✨
 
 Você, um talentoso desenvolvedor, foi recrutado para um emocionante projeto. Um cliente apaixonado por café está prestes a abrir um café mágico e encantador. Esse lugar especial é um refúgio para a criatividade, onde escritores, artistas e amantes da cultura se reúnem para se inspirar. O cliente quer que você crie um site que capture a essência mágica do local e, ao mesmo tempo, permita que a criatividade dos visitantes floresça.

@@ -22,7 +22,7 @@ h1 {
 
 nav li {
  color:var(--color-white);
- 
+ font-size: .8rem;
  margin: 0 10px;
  
  display: inline-block;

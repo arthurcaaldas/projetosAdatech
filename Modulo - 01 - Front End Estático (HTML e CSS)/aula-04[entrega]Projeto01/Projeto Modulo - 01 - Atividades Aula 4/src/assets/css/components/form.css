@@ -1,16 +1,21 @@
 .container-news {
- display: inline-block;
+ text-align: center;
+ 
  width: 100%;
  margin-bottom: 40px;
+
+ display: inline-block;
 }
 
 .content-news {
  display: inline-block;
- width: 49%;
+ width: 38%;
  vertical-align: top;
 }
 
 .news {
+ text-align: start;
+
  width: 90%;
  margin-left: 50px;
  

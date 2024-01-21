@@ -1,10 +1,8 @@
 .history-coffee {
  background-color: var(--color-history);
-
  color: var(--color-white);
  text-transform: uppercase;
  text-align: center;
- 
  padding: 30px 80px;
  margin-top: 40px;
  margin-bottom: 40px;
@@ -13,7 +11,6 @@
 .history-coffee h2 {
  text-shadow: 20px 20px 10px var(--color-black);
  font-size: 1.5rem;
- 
  padding: 50px 0;
 }
 
@@ -22,6 +19,5 @@
  font-size: 1rem;
  font-weight: 100;
  line-height: 1.5;
- 
  padding-bottom: 50px;
 }

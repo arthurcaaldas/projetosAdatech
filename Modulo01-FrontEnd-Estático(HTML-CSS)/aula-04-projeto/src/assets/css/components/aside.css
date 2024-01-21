@@ -1,6 +1,5 @@
 .aside {
  width: 100%;
- 
  display: inline-block;
 }
 
@@ -8,13 +7,10 @@ aside {
  background-image: url(../imagens/brick-wall-1834784_1280.jpg);
  background-attachment: fixed;
  background-size: cover;
- 
  width: 30%;
  border-radius: 30px;
- 
  height: 820px;
  padding: 20px;
- 
  display: inline-block;
 }
 
@@ -27,7 +23,6 @@ aside {
 .aside h3 {
  text-shadow: 10px 10px 8px var(--color-black);
  font-size: 3.5rem;
- 
  margin-top: 30px;
  margin-bottom: 20px;
 }

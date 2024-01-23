@@ -8,6 +8,7 @@
 .content-table h2 {
  font-size: 2rem;
  margin-bottom: 15px;
+ text-align: start;
 }
 
 table tr,

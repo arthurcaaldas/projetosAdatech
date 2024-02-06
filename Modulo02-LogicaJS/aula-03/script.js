@@ -28,6 +28,26 @@
 
 // FOR OF - usado para pecorrer objetos, array, map...
 
+// const alunos = [
+//   {nome: "Joao", idade: 12},
+//   {nome: "Carlos", idade: 24},
+//   {nome: "Andre", idade: 21},
+//   {nome: "Diogo", idade: 25},
+//   {nome: "Pedro", idade: 30},
+//   {nome: "Williams", idade: 17},
+// ]
+
+// for (const aluno of alunos) {
+//   console.log(`${aluno.nome} tem ${aluno.idade} anos`)
+// }
+
+// for (const {nome, idade} of alunos) {
+//   console.log(`${nome} tem ${idade} anos`)
+// }
+
+
+// WHILE - se a primeira do falsa nao executa
+
 const alunos = [
   {nome: "Joao", idade: 12},
   {nome: "Carlos", idade: 24},
@@ -37,10 +57,10 @@ const alunos = [
   {nome: "Williams", idade: 17},
 ]
 
-for (const aluno of alunos) {
-  console.log(`${aluno.nome} tem ${aluno.idade} anos`)
+let i = 0;
+  while (i < alunos.length) {
+    console.log(`${alunos[i].nome} tem ${alunos[i].idade}`)
+    i++;
 }
 
-for (const {nome, idade}of alunos) {
-  console.log(`${nome} tem ${idade} anos`)
-}
+// DO-WHILE - executa no minimo uma

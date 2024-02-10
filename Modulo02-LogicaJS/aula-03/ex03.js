@@ -10,6 +10,7 @@ const sorteio = [];
 
 while (sorteio.length < 6) {
   const num = Math.round(Math.random() * 60) + 1;
+  
   if (!sorteio.includes(num)) {
     sorteio.push(num);
   }  

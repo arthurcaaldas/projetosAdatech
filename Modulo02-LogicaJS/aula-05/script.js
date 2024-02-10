@@ -5,14 +5,15 @@
     A função “altera” o valor de custo para incluir o imposto sobre vendas e retorna o preco final do item ao consumidor
 */
 
-function somaImposto(taxaImposto, custo) {
+const taxaImposto = 10;
+const custo = 100;
+const precoComImposto = somaImposto(taxaImposto, custo);
+
+ somaImposto = (taxaImposto, custo) => {
   const imposto = custo * (taxaImposto / 100);
   const precoFinal = custo + imposto;
   
   return precoFinal;
 }
 
-const taxaImposto = 10;
-const custo = 100;
-const precoComImposto = somaImposto(taxaImposto, custo);
 console.log("Preço final com imposto: R$" + precoComImposto);

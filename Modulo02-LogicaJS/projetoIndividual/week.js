@@ -4,7 +4,7 @@ function verificarDiaSemanaAtual() {
   return diaSemana === 1;
 }
 
-function montarCorpoEmail() {
+function montarEmail() {
   return `
   <h1>CarStore</h1>
   <p></p>

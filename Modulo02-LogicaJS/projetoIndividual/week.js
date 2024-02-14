@@ -1,3 +1,21 @@
+const cadastro = (nome, email, flag) => {
+  nome: "cliente01", email: "client01@example.com", flag: true,
+  nome: "cliente02", email: "client02@example.com", flag: true,
+  nome: "cliente03", email: "client03@example.com", flag: false,
+  nome: "cliente04", email: "client04@example.com", flag: true,
+  nome: "cliente05", email: "client05@example.com", flag: false,
+  nome: "cliente06", email: "client06@example.com", flag: false,
+  nome: "cliente07", email: "client07@example.com", flag: true
+};
+
+for (let i = 0; i < cadastro.length; i++) {
+  console.log("E-mail " + (i+1) + ": " + emails[i]);
+}
+
+
+
+
+
 function DiaSemana() {
   const hoje = new Date();
   const diaSemana = hoje.getDay();

@@ -9,7 +9,7 @@ const cadastro = [
   { nome: "cliente07", email: "client07@example.com", flag: true }
 ];
 
-// A lista de emails armazenará, além do email de cada cliente, uma flag com a decisão do cliente sobre receber ou não comunicações de marketing.
+// Criar uma função para enviar o e-mail para cada um dos clientes da lista, levando em conta a sua decisão sobre receber comunicações de marketing.
 
 let cadastroValidado = [];
 
@@ -67,7 +67,7 @@ const enviarEmail = (addressee, subject, body) => {
   function DiaSemana() {
     const hoje = new Date();
     const diaSemana = hoje.getDay();
-    return diaSemana === 4;
+    return diaSemana === 1;
   }
   
   function enviarEmailSegunda() {

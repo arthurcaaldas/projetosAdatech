@@ -1,3 +1,4 @@
+// lista (array) de emails criada, onde estão armazenados os emails dos clientes com as flags de decisao para recebimento de email.
 const cadastro = [
   { nome: "cliente01", email: "client01@example.com", flag: true },
   { nome: "cliente02", email: "client02@example.com", flag: true },
@@ -7,6 +8,8 @@ const cadastro = [
   { nome: "cliente06", email: "client06@example.com", flag: false },
   { nome: "cliente07", email: "client07@example.com", flag: true }
 ];
+
+// A lista de emails armazenará, além do email de cada cliente, uma flag com a decisão do cliente sobre receber ou não comunicações de marketing.
 
 let cadastroValidado = [];
 
@@ -19,6 +22,7 @@ function validarFlag() {
 }  
 validarFlag();
 
+// Não alterar este código, a menos que haja uma boa justificativa.
 const enviarEmail = (addressee, subject, body) => {
   if (!addressee) {
     return {
@@ -58,6 +62,8 @@ const enviarEmail = (addressee, subject, body) => {
   
   module.exports = enviarEmail;
   
+  // Criar uma função para verificar o dia da semana atual, que será levado em conta para o disparo dos emails.
+  
   function DiaSemana() {
     const hoje = new Date();
     const diaSemana = hoje.getDay();
@@ -77,6 +83,8 @@ const enviarEmail = (addressee, subject, body) => {
       Além disso, estamos dando um desconto especial para os 10 primeiros clientes que comprarem um dos carros mais vendidos.
       Venha conferir em nossa concessionária CarStore!
       `;
+      
+      // Criar uma função para montar o corpo do e-mail a ser enviado.
       
       for (const cliente of cadastroValidado) {
         const emailStatus = enviarEmail(cliente.email, "Novidades na CarStore", `

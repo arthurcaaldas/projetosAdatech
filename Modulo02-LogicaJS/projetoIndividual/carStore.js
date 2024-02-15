@@ -1,3 +1,7 @@
+// Importando a funcao enviarEmail do arquivo enviar-email que nao pode sofrer alterações.
+
+const enviarEmail = require('./enviar-email');
+
 // lista (array) de emails criada, onde estão armazenados os emails dos clientes com as flags de decisao para recebimento de email.
 const cadastro = [
   { nome: "cliente01", email: "client01@example.com", flag: true },
@@ -22,16 +26,12 @@ function validarFlag() {
 }  
 validarFlag();
 
-// Importando a funcao enviarEmail do arquivo enviar-email que nao pode sofrer alterações.
-
-const enviarEmail = require('./enviar-email');
-
 // Criar uma função para verificar o dia da semana atual, que será levado em conta para o disparo dos emails.
 
 function DiaSemana() {
   const hoje = new Date();
   const diaSemana = hoje.getDay();
-  return diaSemana === 1;
+  return diaSemana === 4;
 }
 
 function enviarEmailSegunda() {
@@ -42,10 +42,10 @@ function enviarEmailSegunda() {
     const maisVendidos = ["Onix Ltz, 2019", "Ford Ka, 2020", "HB20, 2018"];
     
     const aquisicao = `
-    Não perca a oportunidade única de adquirir um dos nossos veículos!
     Oferecemos financiamento com taxa de juros zero e primeira parcela para daqui a três meses.
     Além disso, estamos dando um desconto especial para os 10 primeiros clientes que comprarem um dos carros mais vendidos.
-    Venha conferir em nossa concessionária CarStore!
+
+    Venha conferir!
     `;
     
     // Criar uma função para montar o corpo do e-mail a ser enviado.
@@ -53,8 +53,10 @@ function enviarEmailSegunda() {
     for (const cliente of cadastroValidado) {
       const emailStatus = enviarEmail(cliente.email, "Novidades na CarStore", `
       Olá ${cliente.nome}! Você acaba de receber um Email de novidades da nossa concessionária CarStore.
+
       Novos veículos: ${novos.join(", ")}
       Mais vendidos: ${maisVendidos.join(", ")}
+
       Condições de aquisição: ${aquisicao}
       `);
       console.log(emailStatus);

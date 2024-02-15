@@ -31,7 +31,7 @@ validarFlag();
 function DiaSemana() {
   const hoje = new Date();
   const diaSemana = hoje.getDay();
-  return diaSemana === 4;
+  return diaSemana === 1;
 }
 
 function enviarEmailSegunda() {
@@ -44,7 +44,7 @@ function enviarEmailSegunda() {
     const aquisicao = `
     Oferecemos financiamento com taxa de juros zero e primeira parcela para daqui a três meses.
     Além disso, estamos dando um desconto especial para os 10 primeiros clientes que comprarem um dos carros mais vendidos.
-
+    
     Venha conferir!
     `;
     
@@ -53,10 +53,10 @@ function enviarEmailSegunda() {
     for (const cliente of cadastroValidado) {
       const emailStatus = enviarEmail(cliente.email, "Novidades na CarStore", `
       Olá ${cliente.nome}! Você acaba de receber um Email de novidades da nossa concessionária CarStore.
-
+      
       Novos veículos: ${novos.join(", ")}
       Mais vendidos: ${maisVendidos.join(", ")}
-
+      
       Condições de aquisição: ${aquisicao}
       `);
       console.log(emailStatus);

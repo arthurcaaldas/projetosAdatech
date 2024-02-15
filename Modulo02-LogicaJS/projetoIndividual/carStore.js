@@ -22,7 +22,9 @@ function validarFlag() {
 }  
 validarFlag();
 
-// ---------------------------------------
+// Importando a funcao enviarEmail do arquivo enviar-email que nao pode sofrer alterações.
+
+const enviarEmail = require('./enviar-email');
 
 // Criar uma função para verificar o dia da semana atual, que será levado em conta para o disparo dos emails.
 

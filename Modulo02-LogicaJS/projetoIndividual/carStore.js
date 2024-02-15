@@ -34,6 +34,8 @@ function DiaSemana() {
   return diaSemana === 1;
 }
 
+// Criar uma função para montar o corpo do e-mail a ser enviado.
+
 function enviarEmailSegunda() {
   const diaSemana = DiaSemana();
   
@@ -47,8 +49,6 @@ function enviarEmailSegunda() {
     
     Venha conferir!
     `;
-    
-    // Criar uma função para montar o corpo do e-mail a ser enviado.
     
     for (const cliente of cadastroValidado) {
       const emailStatus = enviarEmail(cliente.email, "Novidades na CarStore", `

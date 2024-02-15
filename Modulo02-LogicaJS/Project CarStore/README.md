@@ -20,7 +20,7 @@ Estas instruções abaixo permitirão que você obtenha uma cópia do projeto em
 <h2>🔗 Para clonar o Repositório:</h2>
 
 ```bash 
-git clone https://github.com/keodevspace/Project_CarStore.git
+git clone 
 ```
 <h2>📋 Pré-requisitos:</h2>
 

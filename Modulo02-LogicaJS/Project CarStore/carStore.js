@@ -28,7 +28,7 @@ validarFlag();
 
 // Criar uma função para verificar o dia da semana atual, que será levado em conta para o disparo dos emails.
 
-function DiaSemana() {
+function verificadorDiaSemana() {
   const hoje = new Date();
   const diaSemana = hoje.getDay();
   return diaSemana === 1;
@@ -37,7 +37,7 @@ function DiaSemana() {
 // Criar uma função para montar o corpo do e-mail a ser enviado.
 
 function enviarEmailSegunda() {
-  const diaSemana = DiaSemana();
+  const diaSemana = verificadorDiaSemana();
   
   if (diaSemana) {
     const novos = ["320i, 2022", "Audi A4, 2020", "Jetta gti, 2021"];
